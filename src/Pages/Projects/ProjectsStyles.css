@@ -1,0 +1,118 @@
+.btnn {
+  display: none;
+}
+
+.nav-menu2 a:hover {
+  color: #f9004d;
+  font-weight: 700;
+  font-size: 16px;
+  transition: ease-in-out 0.6s;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.name001 {
+  width: 100%;
+  padding: 100px 8px;
+  min-height: 70vh;
+  background-color: #3a4049;
+}
+
+.myPro h2 {
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.projectBox {
+  min-height: 50vh;
+  padding: 10vmin 4vmin;
+
+  width: 1005px;
+  margin-left: 12%;
+
+  border-radius: 5px;
+  padding: 4rem;
+  box-shadow: 0px 0px 5px 5px #cecbcb;
+  background-color: #3a4049;
+  line-height: 1.7;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6vmin;
+  margin-top: 2vmin;
+}
+
+.projectTitle {
+  font-size: 4vmin;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.projectTool {
+  font-size: 3vmin;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 1vmin 0;
+}
+
+.projectDesc {
+  color: #fff;
+  font-size: 2.4vmin;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.7;
+  font-weight: 200;
+  margin: 1vmin 0;
+}
+
+.projectRoute {
+  display: flex;
+  align-items: baseline;
+}
+
+.projectLink {
+  font-size: 3vmin;
+  margin-right: 3vmin;
+}
+.projectLink a {
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  text-transform: capitalize;
+}
+
+@media (max-width: 940px) {
+  .mobile-nav {
+    display: block;
+  }
+  .nav-menu2 {
+    display: none;
+  }
+
+  .btnn {
+    display: block;
+  }
+
+  .myPro h2 {
+    font-size: 55px;
+    width: 350px;
+    margin: 25px auto;
+  }
+
+  .projectBox {
+    width: 400px;
+    margin-left: 5%;
+    line-height: 1.5;
+  }
+
+  .projectGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
